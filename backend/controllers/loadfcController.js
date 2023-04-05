@@ -4,7 +4,7 @@ const { NewData21, NewData57, NewData97, NewData117, NewData53, NewData106 } = r
 
 const getLoadData = asyncHandler(async (req, res) => {
 
-    console.log('Endpoint hit!!'.red.bold.underline);
+    console.log('Endpoint hit!!'.blue.italic.underline);
 
     if (req.params.id == 21) {
         let newData21 = await NewData21.find()
